@@ -7,10 +7,12 @@ set(CMAKE_CXX_STANDARD 11)
 set(SOURCES
     src/main.cpp
     src/glad.c
+    src/GraphicsManager.cpp
 )
 
 set(HEADERS
     include/object.hpp
+    include/GraphicsManager.hpp
 )
 
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)

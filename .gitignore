@@ -30,5 +30,15 @@
 *.exe
 *.out
 *.app
+
+# Debug files
 .vscode
 .DS_Store
+
+# CMake build directory
+build
+build/*
+bin
+bin/*
+obj
+obj/*
