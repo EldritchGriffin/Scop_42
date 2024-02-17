@@ -8,6 +8,7 @@ set(SOURCES
     src/main.cpp
     src/glad.c
     src/GraphicsManager.cpp
+    src/object.cpp
 )
 
 set(HEADERS
